@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Nasalization';
+    src: url('/nasalization-rg.ttf') format('truetype');
+}
+
+.apod-image-detail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+
+    width: 60vw;
+    position: absolute;
+    margin: 20vh 20vw;
+
+    color: white;
+    font-weight: 400;
+    text-shadow: 1px 1px black; 
+    font-family: 'Nasalization';
+    text-align: center;
+}
+
+.apod-image-detail h1{
+    padding: 0;
+    margin: 0;
+}
+
+.apod-image-detail p{
+    padding: 2vw;
+    font-size: 0.8rem;
+    font-weight: 300;
+    opacity: 0.3;
+    transition: opacity 0.8s;
+}
+
+.apod-image-detail p:hover{
+    background: rgb(10, 10, 12);
+    opacity: 0.8;
+}
+
